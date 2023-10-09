@@ -51,7 +51,15 @@ body {
 }
 
 .more-info {
+	color:black;
+	text-decoration: underline;
+	text-decoration-color: 	#ffbd59
+}
 
+.small-link {
+	color:black;
+	text-decoration: underline;
+	text-decoration-color: 	#ffbd59
 }
 
 .slideshow {
@@ -161,6 +169,15 @@ body {
   margin-right: auto;
   width: 50%;
 }
+
+.align-me-center-header-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top:3vh;
+}
+
 .phone-number {
 	
 }
