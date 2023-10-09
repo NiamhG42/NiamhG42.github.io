@@ -137,13 +137,20 @@ body {
 	justify-content:center;
 	align-items: center;
 	width:33vw;
-	
 }
 
 .other-spliter {
-	display: flex;
-	flex-direction: row;
-	justify-content:space-around
+	display: flex-inline;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+	width:50vw;
+	align-self: center;
+
+}
+
+.flexbox-paper {
+	
 }
 
 .phone-number {
