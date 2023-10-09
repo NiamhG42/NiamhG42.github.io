@@ -150,9 +150,17 @@ body {
 }
 
 .flexbox-paper {
+	display: flex-inline;
+	flex-direction:row
 	
 }
 
+.align-me-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 .phone-number {
 	
 }
