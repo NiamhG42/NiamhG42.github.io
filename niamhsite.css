@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css?family=Carter+One");
+@import url("https://fonts.googleapis.com/css?family=Atkinson+Hyperlegible");
+
+body {
+	background-color:#fff8e8;
+	font-family:"Atkinson Hyperlegible";
+}
+
+.vertical-flex {
+	display: flex-inline;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+	gap: 2vh;
+}
+
+.title {
+	font-family:"Carter One",Copperplate,Fantasy;
+	text-align: center;
+	font-size: 5vh;
+	padding-bottom: 0vh;
+}
+
+.subtitle {
+	text-align: center;
+	font-family:"Carter One",Copperplate,Fantasy;
+	font-size: 2vh;
+	padding-bottom: 3vh;
+}
+
+.navbar {
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
+	gap: 2vw;
+	background-color: #ffbd59;
+	position: -webkit-sticky; /*need for safari*/
+	position: sticky;
+	padding: 1vh;
+	gap: 2vw;
+	top: 0;
+	align-self: stretch;
+ 
+}
+
+
+.navbar-item {
+	color:black;
+	text-decoration: underline;
+	text-decoration-color: 	#a27734
+}
+
+.more-info {
+
+}
+
+.slideshow {
+	padding-top:2vh;
+	align-self:center
+}
+
+.right-aligned-flexbox {
+	display: flex;
+	flex-direction: row;
+	justify-content:right;
+	align-items: right;
+}
+
+.navbar-item-selected {
+	color:#a20000;
+	text-decoration: underline;
+
+}
+
+.game {
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
+	gap: 1vw;
+	padding: 1vh;
+}
+
+.sidebar-image {
+	width:25vw;
+	height:14.0625vw; 
+}
+
+.game-sidebar {
+	display: flex-inline;
+	flex-direction: column;
+	justify-content:center;
+	width:25vw
+}
+
+.sticky-footer {
+	position: -webkit-sticky; /*need for safari*/
+	position: sticky;
+	bottom: 0;
+	background-color: #ffbd59;
+	padding: 1vh;
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
+	gap: 2vw;
+}
+
+.image-word-split {
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
+	gap: 2vw;
+}
+
+.flex-25vw {
+	display: flex-inline;
+	flex-direction: column;
+	justify-content:center;
+	width:25vw
+}
+
+.flex-50vs {
+	display: flex-inline;
+	flex-direction: column;
+	justify-content:center;
+	width:50vw
+}
+
+.header-image {
+	width:50vw;
+	height:28.125vw; 
+	align-self: center;
+}
+
+.other-vertical {
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+	width:33vw;
+	
+}
+
+.other-spliter {
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around
+}
+
+.phone-number {
+	
+}
+
+.email {
+	
+}
