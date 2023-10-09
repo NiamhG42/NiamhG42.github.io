@@ -163,11 +163,12 @@ body {
 	
 }
 
-.align-me-center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+.align-me-center-text {
+  text-align: center;
+}
+
+.pad3vh {
+	padding-bottom: 3vh;
 }
 
 .align-me-center-header-image {
