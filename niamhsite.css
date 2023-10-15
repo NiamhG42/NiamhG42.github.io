@@ -66,6 +66,12 @@ p {
 	text-decoration-color: 	#ffbd59
 }
 
+.game-section-title{
+	color:black;
+	text-decoration: underline;
+	text-decoration-color: 	#ffbd59
+}
+
 .small-link {
 	color:black;
 	text-decoration: underline;
