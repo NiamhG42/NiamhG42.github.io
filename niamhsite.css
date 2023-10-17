@@ -211,12 +211,12 @@ p {
 }
 
 .align-me-center-header-video {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  height: 28.125%;
-  padding-top:3vh;
+	display: flex;
+	width:50vw;
+	height:28.125vw;
+	justify-content:center;
+	align-items: center;
+	align-self: center;
 }
 
 
