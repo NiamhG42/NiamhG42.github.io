@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @import url("https://fonts.googleapis.com/css?family=Carter+One");
 @import url("https://fonts.googleapis.com/css?family=Atkinson+Hyperlegible");
 
@@ -8,9 +15,16 @@ body {
 
 .vertical-flex {
 	display: flex-inline;
-	flex-direction: column;
-	justify-content:center;
-	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack:center;
+	    -ms-flex-pack:center;
+	        justify-content:center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	gap: 2vh;
 }
 
@@ -29,17 +43,25 @@ body {
 }
 
 .navbar {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
-	justify-content:center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack:center;
+	    -ms-flex-pack:center;
+	        justify-content:center;
 	gap: 2vw;
-	background-color: #ffbd59;
-	position: -webkit-sticky; /*need for safari*/
+	background-color: #ffbd59; /*need for safari*/
 	position: sticky;
 	padding: 1vh;
 	gap: 2vw;
 	top: 0;
-	align-self: stretch;
+	-ms-flex-item-align: stretch;
+	    -ms-grid-row-align: stretch;
+	    align-self: stretch;
  
 }
 
@@ -57,37 +79,52 @@ p {
 .navbar-item {
 	color:black;
 	text-decoration: underline;
-	text-decoration-color: 	#a27734
+	-webkit-text-decoration-color: 	#a27734;
+	        text-decoration-color: 	#a27734
 }
 
 .more-info {
 	color:black;
 	text-decoration: underline;
-	text-decoration-color: 	#ffbd59
+	-webkit-text-decoration-color: 	#ffbd59;
+	        text-decoration-color: 	#ffbd59
 }
 
 .game-section-title{
 	color:black;
 	text-decoration: underline;
-	text-decoration-color: 	#ffbd59
+	-webkit-text-decoration-color: 	#ffbd59;
+	        text-decoration-color: 	#ffbd59
 }
 
 .small-link {
 	color:black;
 	text-decoration: underline;
-	text-decoration-color: 	#ffbd59
+	-webkit-text-decoration-color: 	#ffbd59;
+	        text-decoration-color: 	#ffbd59
 }
 
 .slideshow {
 	padding-top:2vh;
-	align-self:center
+	-ms-flex-item-align:center;
+	    -ms-grid-row-align:center;
+	    align-self:center
 }
 
 .right-aligned-flexbox {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
-	justify-content:right;
-	align-items: right;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack:right;
+	    -ms-flex-pack:right;
+	        justify-content:right;
+	-webkit-box-align: right;
+	    -ms-flex-align: right;
+	        align-items: right;
 }
 
 .navbar-item-selected {
@@ -97,9 +134,16 @@ p {
 }
 
 .game {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
-	justify-content:center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack:center;
+	    -ms-flex-pack:center;
+	        justify-content:center;
 	gap: 1vw;
 	padding: 1vh;
 }
@@ -111,78 +155,141 @@ p {
 
 .game-sidebar {
 	display: flex-inline;
-	flex-direction: column;
-	justify-content:center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack:center;
+	    -ms-flex-pack:center;
+	        justify-content:center;
 	width:25vw
 }
 
-.sticky-footer {
-	position: -webkit-sticky; /*need for safari*/
+.sticky-footer { /*need for safari*/
 	position: sticky;
 	bottom: 0;
 	background-color: #ffbd59;
 	padding: 1vh;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
-	justify-content:center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack:center;
+	    -ms-flex-pack:center;
+	        justify-content:center;
 	gap: 2vw;
 }
 
 .image-word-split {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
-	justify-content:center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack:center;
+	    -ms-flex-pack:center;
+	        justify-content:center;
 	gap: 2vw;
 }
 
 .flex-25vw {
 	display: flex-inline;
-	flex-direction: column;
-	justify-content:center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack:center;
+	    -ms-flex-pack:center;
+	        justify-content:center;
 	width:25vw
 }
 
 .flex-50vs {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	justify-content:center;
-	align-items: center;
-	align-self: center; 
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack:center;
+	    -ms-flex-pack:center;
+	        justify-content:center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-ms-flex-item-align: center;
+	    -ms-grid-row-align: center;
+	    align-self: center; 
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
 }
 
 .header-image {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	width:50vw;
 	height:28.125vw;
-	justify-content:center;
-	align-items: center;
-	align-self: center;
+	-webkit-box-pack:center;
+	    -ms-flex-pack:center;
+	        justify-content:center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-ms-flex-item-align: center;
+	    -ms-grid-row-align: center;
+	    align-self: center;
 }
 
 .other-vertical {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	justify-content:center;
-	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack:center;
+	    -ms-flex-pack:center;
+	        justify-content:center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	width:33vw;
 }
 
 .other-spliter {
 	display: flex-inline;
-	flex-direction: column;
-	justify-content:center;
-	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack:center;
+	    -ms-flex-pack:center;
+	        justify-content:center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	width:50vw;
-	align-self: center;
+	-ms-flex-item-align: center;
+	    -ms-grid-row-align: center;
+	    align-self: center;
 
 }
 
 .flexbox-paper {
 	display: flex-inline;
-	flex-direction:row
+	-webkit-box-orient:horizontal;
+	-webkit-box-direction:normal;
+	    -ms-flex-direction:row;
+	        flex-direction:row
 	
 }
 
@@ -211,12 +318,20 @@ p {
 }
 
 .align-me-center-header-video {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	width:50vw;
 	height:28.125vw;
-	justify-content:center;
-	align-items: center;
-	align-self: center;
+	-webkit-box-pack:center;
+	    -ms-flex-pack:center;
+	        justify-content:center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-ms-flex-item-align: center;
+	    -ms-grid-row-align: center;
+	    align-self: center;
 }
 
 
