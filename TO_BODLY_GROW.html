@@ -5,40 +5,104 @@
 </head>
 <body>
 	<div class="vertical-flex">
-		<h1 class="title">NIAMH</h1>
+		<div class="title">Niamh Germaine</div>
+		<div class="subtitle">creator of games</div>
 		<div class="navbar">
-			<div class="navbar-item-selected">
-				<h2><a href="games.html">GAMES</a></h2>
+			<div class="navbar-item">
+				<h2><a class="navbar-item"href="index.html">Games</a></h2>
 			</div>
 			<div class="navbar-item">
-				<h2><a href="/other">OTHER WORK</a></h2>
+				<h2><a class="navbar-item" href="GameAcademia.html">Games Academia</a></h2>
 			</div>
-			<div class="navbar-item">
-				<h2><a href="/about">ABOUT</a></h2>
-			</div>
+			
 		</div>
-		<iframe class="header-image" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-		<h2>TO BODLY GROW</h2>		
-		<div class="image-word-split">
-			<div class="flex-25vw">
-			<img class="sidebar-image" src="images/example.jpg">
-			<img class="sidebar-image" src="images/example.jpg">
-			<img class="sidebar-image" src="images/example.jpg">
-			<img class="sidebar-image" src="images/example.jpg">
-			</div>
-			<div class="flex-25vw">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus sed vulputate odio ut enim blandit volutpat. Lorem dolor sed viverra ipsum nunc aliquet bibendum. Commodo ullamcorper a lacus vestibulum sed. Leo vel fringilla est ullamcorper eget nulla. Nisl suscipit adipiscing bibendum est ultricies integer quis. Ac ut consequat semper viverra nam libero justo laoreet. Ut porttitor leo a diam sollicitudin tempor id eu nisl. Amet tellus cras adipiscing enim eu turpis egestas pretium. Aliquam sem fringilla ut morbi tincidunt. Interdum varius sit amet mattis vulputate enim. Blandit cursus risus at ultrices mi tempus imperdiet nulla. Risus in hendrerit gravida rutrum. Cursus mattis molestie a iaculis at. Non curabitur gravida arcu ac tortor dignissim convallis. Fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate.</p>
-				<p>Justo laoreet sit amet cursus sit amet. Enim neque volutpat ac tincidunt vitae semper quis. Et tortor consequat id porta nibh venenatis. Cursus euismod quis viverra nibh cras pulvinar. Sodales neque sodales ut etiam sit amet nisl purus. Eget egestas purus viverra accumsan in nisl nisi scelerisque eu. Quisque id diam vel quam elementum pulvinar etiam non quam. Cursus turpis massa tincidunt dui ut ornare lectus sit amet. Sed vulputate odio ut enim blandit volutpat maecenas volutpat blandit. Non tellus orci ac auctor augue mauris. Leo urna molestie at elementum eu facilisis sed odio. A scelerisque purus semper eget. Nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Odio ut enim blandit volutpat maecenas volutpat. Commodo odio aenean sed adipiscing diam.</p>
-				<p>Aliquet enim tortor at auctor urna. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus vitae. In est ante in nibh mauris cursus mattis molestie a. Viverra nibh cras pulvinar mattis nunc sed. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in. Commodo viverra maecenas accumsan lacus vel facilisis volutpat. Tincidunt ornare massa eget egestas purus viverra accumsan in nisl. Nulla porttitor massa id neque. Viverra mauris in aliquam sem. Sed adipiscing diam donec adipiscing. Facilisis volutpat est velit egestas dui id ornare. Nec feugiat nisl pretium fusce id velit ut tortor. Velit aliquet sagittis id consectetur purus ut faucibus. Non blandit massa enim nec dui nunc mattis enim ut.</p>
-				<p>Placerat orci nulla pellentesque dignissim. Sed elementum tempus egestas sed sed risus. Tortor dignissim convallis aenean et tortor. Malesuada nunc vel risus commodo viverra maecenas accumsan. Consectetur adipiscing elit duis tristique. Aliquet lectus proin nibh nisl condimentum id. Nibh ipsum consequat nisl vel. Nunc scelerisque viverra mauris in aliquam sem fringilla. Purus faucibus ornare suspendisse sed nisi. Ac orci phasellus egestas tellus rutrum. Varius morbi enim nunc faucibus. Hendrerit dolor magna eget est lorem. Lacus laoreet non curabitur gravida arcu ac tortor. Arcu vitae elementum curabitur vitae. Vel orci porta non pulvinar neque laoreet suspendisse interdum. Id leo in vitae turpis massa sed. Sit amet massa vitae tortor. Vel fringilla est ullamcorper eget nulla facilisi etiam.</p>
-				<p>Sed adipiscing diam donec adipiscing tristique risus nec. Diam quam nulla porttitor massa id. Libero justo laoreet sit amet cursus sit amet. Nulla malesuada pellentesque elit eget gravida cum sociis natoque. A pellentesque sit amet porttitor. Dolor purus non enim praesent elementum facilisis leo vel. Erat velit scelerisque in dictum non. Iaculis urna id volutpat lacus laoreet. Aliquam purus sit amet luctus. Molestie a iaculis at erat pellentesque adipiscing commodo elit at. Leo integer malesuada nunc vel. Porta lorem mollis aliquam ut porttitor leo a diam sollicitudin. Venenatis tellus in metus vulputate. Cras fermentum odio eu feugiat. Viverra tellus in hac habitasse platea dictumst vestibulum rhoncus est.</p>
-			</div>
+		<div class="align-me-center-image"><div id="player" class="align-me-center-header-video"></div>
+
+    <script>
+      // 2. This code loads the IFrame Player API code asynchronously.
+      var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+      // 3. This function creates an <iframe> (and YouTube player)
+      //    after the API code downloads.
+      var player;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+          height: '390',
+          width: '640',
+          videoId: 'cYMm1HQ0r7s',
+          playerVars: {
+            'playsinline': 1
+          },
+          events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+          }
+        });
+      }
+
+      // 4. The API will call this function when the video player is ready.
+      function onPlayerReady(event) {
+      }
+
+      // 5. The API calls this function when the player's state changes.
+      //    The function indicates that when playing a video (state=1),
+      //    the player should play for six seconds and then stop.
+      var done = false;
+      function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.PLAYING && !done) {
+          done = true;
+        }
+      }
+      function stopVideo() {
+        player.stopVideo();
+      }
+    </script>
+
+		</div>
+		<h1 class="align-me-center-text">TO BODLY GROW</h2>	</h1>
+		
+<div class="watdid" style="font-size: 3vh"><div class="align-me-center-text">Design, Project Management, Art (Textures)</div></div>
+		<div class="flex-50vs">
+			<p>To Boldly Grow is a work-in-progress game that combines systemic gameplay with a relaxing farming simulator.
+			</p>
+			<p>My goal was to design a system where players can breed their own plant species, which are meaningfully and interestingly distinct in appearance and behaviour. Plants also interact systemically with each other, the environment and the player.
+			</p>
+			<h2 class="subheading">Core Gameplay Loop</h2>
+			<p>The player, as an alien botanist, can analyse plant specimens to discover their properties, crossbreed plants to create new species, and trade their harvested plants for resources to upgrade their farm. Their ultimate goal is to breed the perfect plants to terraform the barren world below their research station into a habitable planet.
+			</p>
+			
+			<img  src="images\ToBoldlyGrow\ToBoldlyGrow1.png" class="align-me-center-image">
+	 
+			<h2 class="subheading">Making Interesting and Varied Plants using Plant Stats</h2>
+			<p>Each plant has a set of stats that govern its appearance and its systemic interactions with the player and the environment (including other plants). I designed these stats with a focus on allowing the player to create interesting and varied plants.
+			</p>
+			<p>Plants’ properties are measured from one to twenty along five different “stat spectrums”. This allows for a vast number of different stat combinations, which creates great variance in the behaviour and appearance of plant species.
+			</p>
+			<img  src="images\ToBoldlyGrow\ToBoldlyGrow2.gif" class="align-me-center-image">
+			
+			<p>Plants are designed modularly to facilitate a diverse range of possible appearances. Each plant is composed of separate parts that can be textured differently and swapped around in different combinations based on a plant’s stats.
+			</p><p>Originally, each stat was on a simple scale where a low value only indicated the plant was lacking in that property (e.g. a “0 invasive” plant is a plant with no invasive properties). However, this meant low values weren’t interesting as they were simply the absence of an engaging trait.
+			</p><p>I replaced the one-stat scale with a spectrum between two different stats. This means stats are inversely proportional (e.g. if a plant is less invasive, it’s more cannibalistic). Plants are more interesting at every point along the spectrum because they are always defined by an active trait, rather than the absence of one.
+			</p>
+			<img  src="images\ToBoldlyGrow\ToBoldlyGrow3.png" class="align-me-center-image">
+			
+			<p>I also gave “middling” stats their own properties, to make sure plants weren’t only engaging at the extreme ends of the stat spectrums. For instance, highly electric plants produce electricity, can charge automations and might shock players if incautiously watered. Mid-range electric plants don’t produce electricity but do conduct electricity, so they behave like highly electric plants when in a circuit with them.
+			</p>
+			<h2 class="subheading">Crossbreeding to Create New Species</h2>
+			<p>The botany system allows players to systemically create new species of plants with different stats.
+			</p><p>I designed a formula to determine the “child” plant’s stats when two “parent” plants are crossbred. A child’s stats are roughly halfway between the parents’ stats. Inspired by real genetics, each stat spectrum is tagged as either “Dominant” or “Recessive”. This mechanic potentially weighs the child plant’s stats towards one parent or the other.
+			</p><p>Once the formula has calculated the child plant’s stats and whether they are dominant or recessive, there is a small chance that mutation will occur. This slightly alters the stats of the child plant to introduce a small element of random variance into the crossbreeding process.
+			</p>
+			<img  src="images\ToBoldlyGrow\ToBoldlyGrow4.png" class="align-me-center-image">
 		</div>
 	</div>
-	
+	</br>
 	<div class="sticky-footer">
-		<p class="phone-number">555 555 5555</p>
-		<p class="email"> example@example.ie</p>
+		<p class="email"> niamhgermaine10@gmail.com</p>
 	</div>
 </body>
 </html>
