@@ -362,7 +362,8 @@ p {
 }
 
 .email {
-	
+	color: black;
+	text-decoration: none; 
 }
 .watdid {
 	font-style: italic;
