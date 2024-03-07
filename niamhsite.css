@@ -309,11 +309,27 @@ p {
   padding-top:3vh;
 }
 
+.align-me-center-image-half {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:25vw;
+  padding-top:3vh;
+}
+
 .align-me-center-image-header{
   display: block;
   margin-left: auto;
   margin-right: auto;
   width:60vw;
+  padding-top:3vh;
+}
+
+.align-me-center-image-header-half{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:30vw;
   padding-top:3vh;
 }
 
