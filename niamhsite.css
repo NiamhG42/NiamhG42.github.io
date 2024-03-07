@@ -5,8 +5,14 @@
 * Browsers: last 4 version
 */
 
+
+
 @import url("https://fonts.googleapis.com/css?family=Carter+One");
 @import url("https://fonts.googleapis.com/css?family=Atkinson+Hyperlegible");
+
+html {
+    width: 100%;
+}
 
 body {
 	background-color:#fff8e8;
