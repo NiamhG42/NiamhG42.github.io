@@ -77,7 +77,13 @@ body {
 	    align-self: stretch;
  
 }
-
+@media (max-width: 768px) {
+	.navbar {
+		-webkit-box-pack:space-around;
+			-ms-flex-pack:space-around;
+				justify-content:space-around;
+	}
+}
 .subheading {
 	padding-top: 10vh;
 	margin: 0;
