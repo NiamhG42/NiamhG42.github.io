@@ -34,7 +34,7 @@ body {
 	gap: 2vh;
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
 	.vertical-flex {
 		gap:2vh;
 	}
@@ -140,7 +140,7 @@ p {
 	        align-items: right;
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
 	.right-aligned-flexbox {
 		
 	}
@@ -167,7 +167,7 @@ p {
 	padding: 1vh;
 }
 
-@media only screen and (max-width: 768px) {
+@media  (max-width: 768px) {
 	.game {
 		-webkit-box-orient: vertical;
 			    -ms-flex-direction: column;
@@ -197,7 +197,7 @@ p {
 	width:25vw
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
 	.sidebar-image {
 	width:92vw;
 	/*height:25.3125; */
@@ -287,7 +287,7 @@ p {
 	width: 50vw;
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
 	.flex-25vw {
 	display: flex-inline;
 	-webkit-box-orient: vertical;
@@ -403,7 +403,7 @@ p {
   padding-top:3vh;
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
 .align-me-center-image 
 {
 	width:95vw;
@@ -434,7 +434,7 @@ p {
   padding-top:3vh;
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
 .align-me-center-image-header{
 	width:97vw
 }
@@ -461,7 +461,7 @@ p {
 	    align-self: center;
 }
 
-@media only screen and (max-width: 768px){
+@media (max-width: 768px){
 	.align-me-center-header-video{
 	width:95vw;
 	height:53.4375vw;
