@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="niamhsite.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+	<div class="vertical-flex">
+		<div class="title">Niamh Germaine</div>
+		<div class="subtitle">creator of games</div>
+		<div class="navbar">
+			<div class="navbar-item">
+				<h2><a class="navbar-item"href="index.html">Games</a></h2>
+			</div>
+			<div class="navbar-item">
+				<h2><a class="navbar-item" href="GameAcademia.html">Games Academia</a></h2>
+			</div>			
+		</div>
+        <img  src="images/0_Banner_Speedrun&Gun.png" class="align-me-center-image-header">
+        <h1 class="page-title">Speedrun & Gun</h1>	
+        <div class="watdid" style="font-size: 3vh"><div class="align-me-center-text">Solo Project</div></div>
+        <div class="pad3vh"><div class="align-me-center-text"><h2><a href="https://niamhg.itch.io/speedrun-n-gun" class="small-link" >Play here</a></h2>
+        </div>
+        <div class="pad3vh"><div class="align-me-center-text"><h2><a href="https://github.com/NiamhG42/Speedrun-n-Gun" class="small-link" >View Github Repository here</a></h2>
+        </div></div>					
+        <div class="flex-50vs">
+            <p>
+                I made Speedrun & Gun primarily to practice using Unreal Engine. My aim was to gain a basic understanding of how to use the engine, especially Blueprints and Material Graphs, and make a playable game as quickly as possible.
+
+                In 4 days, I took Unreal’s FPS Template and:
+                <ul>
+            <li>Added more player movement options; crouch, sprint (togglable) & a physics based slide (affected by angle of sloped ground)</li>
+            <li>Made the default projectile weapon into a hitscan gun</li>
+            <li>Implemented a speedrun timer and basic UI</li>
+            <li>Implemented destructible barriers, including making an animated “hologram” texture</li>
+            <li>a level to race through</li>
+             </ul>
+                I intend to develop this further (e.g. refine the movement, add more sound and visual FX, implement speed boost powerups and different obstacles) but this is a snapshot of my initial progress.
+                            </p>
+            <img  src="images\Speedrun&Gun\1_Speedrun&Gun_Blueprints.png" class="align-me-center-image">
+            <div class="image-description">
+            </div>
+            <h2 class="subheading">Level Design</h2>
+            <p>
+                For design purposes, I split the level into three sections with distinct purposes.
+                (Note: I’ve made the ceilings and some walls invisible in some of the screenshots below to make the general layout easier to see.)
+                            </p>
+            <h2 class="subheading">Section One</h2>
+            <img  src="images\Speedrun&Gun\2_Speedrun&Gun_Section1.png" class="align-me-center-image">
+
+            <p>
+                Section One is designed as a “tutorial” to introduce the player to one concept at a time: ramps to slide down, walls they have to duck under or jump over and barriers they have to shoot.
+
+                There’s a hidden <b>shortcut</b> before the starting line that allows players to go straight into Section Two. Players will likely not turn around and see it on their first playthrough (and so will do the “tutorial”) but they might notice the exit into Section Two. It rewards observant players and lets experienced players skip the “tutorial”.
+                            </p>
+
+            <div class="image-description">
+            </div>
+            <h2 class="subheading">Section Two</h2>
+            <img  src="images\Speedrun&Gun\3_Speedrun&Gun_Section2.png" class="align-me-center-image">
+
+            <p>
+                Section Two increased the difficulty by combining two concepts at a time (e.g. walls to jump over and barriers to destroy). It also features the first large ramp for players to slide down while avoiding obstacles.
+            <br>            <br>
+                Section Two has the most obvious <b>shortcut</b>. It’s designed to be noticed so players will realize there’s shortcuts in the course and they should be on the lookout for more.
+            </p>
+            <div class="image-description">
+            </div>
+            <h2 class="subheading">Section three</h2>
+            <img  src="images\Speedrun&Gun\4_Speedrun&Gun_Section3.png" class="align-me-center-image">
+
+            <p>
+                Sections Two and Three are linked by a small area without any obstacles. This change of pace gives players a “breather” to relax before launching them into the hardest section. Section Three combines up to three concepts at a time and is composed almost entirely of steep ramps, to encourage players to slide through it very quickly.
+<br><br>
+                Section One and Two are relatively dark and claustrophobic. Section Three is much more brightly lit and open. This adds variety and shifts the level’s “mood” into something more light and celebratory as the player approaches the finish line.
+                <br><br>        
+                Section Three offers players a choice of routes; one with obstacles to slide under/jump over and one with a slalom to navigate. If players are skilled enough to race up the thin wall separating these routes, jump over gaps and navigate obstacles then they can access the final secret <b>shortcut</b>.
+            </p>
+        </div>
+    </div>
+    <div class="sticky-footer">
+		<a href="mailto:niamhgermaine10@gmail.com" class="email"> niamhgermaine10@gmail.com</a>
+	</div>
+</body>
+</html>
